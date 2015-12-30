@@ -24,15 +24,16 @@ import java.util.*;
 
 
 
-public class Sint153P2 extends HttpServlet {
+public class Sint153P3 extends HttpServlet {
 
 
-    MongoClient mongoClient = new MongoClient ("127.0.0.1", 27017);
+    MongoClient mongoClient;    
+
     ArrayList<Document> listaDocumentosJSON = new ArrayList<Document>();
     ArrayList<String> listaErrores = new ArrayList<String>();
-    
+
     boolean executed = false;
-    
+
     String fase1 = "";
 
     String fase2 = "";
@@ -48,11 +49,11 @@ public class Sint153P2 extends HttpServlet {
 
     String fase4 = "";
     Map<String, Integer> mapFase4 = new TreeMap<String, Integer>();
-    
+
 
     //MÉTODO DE INICIALIZACIÓN
     public void init(ServletOutputStream salida) throws ServletException, IOException {
-
+         mongoClient = new MongoClient ("127.0.0.1", 27017);
     }
 
     public void doPost (HttpServletRequest req, HttpServletResponse res) throws ServletException, IOException {
@@ -81,44 +82,12 @@ public class Sint153P2 extends HttpServlet {
         //Todo este tocho está dedicado a las fases
         if ((req.getParameter("fase") == null) || (req.getParameter("fase").equals("0"))) {
 
-            //init(salida);
-
-            String URLs [] = {
-                    "D:\\Users\\Likytho\\Google Drive\\Teleco (UVigo)\\3º Grado (2015-2016)\\1º Cuatrimestre\\Servicios de Internet\\Práctica\\Práctica 3\\Documentos en JSON\\sabina.json",
-                    "D:\\Users\\Likytho\\Google Drive\\Teleco (UVigo)\\3º Grado (2015-2016)\\1º Cuatrimestre\\Servicios de Internet\\Práctica\\Práctica 3\\Documentos en JSON\\springsteen.json",
-                    "D:\\Users\\Likytho\\Google Drive\\Teleco (UVigo)\\3º Grado (2015-2016)\\1º Cuatrimestre\\Servicios de Internet\\Práctica\\Práctica 3\\Documentos en JSON\\siniestro.json",
-                    "D:\\Users\\Likytho\\Google Drive\\Teleco (UVigo)\\3º Grado (2015-2016)\\1º Cuatrimestre\\Servicios de Internet\\Práctica\\Práctica 3\\Documentos en JSON\\celentano.json",
-                    "D:\\Users\\Likytho\\Google Drive\\Teleco (UVigo)\\3º Grado (2015-2016)\\1º Cuatrimestre\\Servicios de Internet\\Práctica\\Práctica 3\\Documentos en JSON\\mina.json",
-                    "D:\\Users\\Likytho\\Google Drive\\Teleco (UVigo)\\3º Grado (2015-2016)\\1º Cuatrimestre\\Servicios de Internet\\Práctica\\Práctica 3\\Documentos en JSON\\cocker.json",
-                    "D:\\Users\\Likytho\\Google Drive\\Teleco (UVigo)\\3º Grado (2015-2016)\\1º Cuatrimestre\\Servicios de Internet\\Práctica\\Práctica 3\\Documentos en JSON\\aute.json"
-            };
-
-
+            init(salida);
 
             if (!executed){
 
                 MongoDatabase dbase = mongoClient.getDatabase("dbsint");
-
                 MongoCollection<Document> collJSON = dbase.getCollection("IML");
-                collJSON.drop();
-
-                for (int i=0; i<URLs.length; i++){ //URLs tiene los "path" de los documentos de mi ordenador
-                    BufferedReader docAux = new BufferedReader(new InputStreamReader(new FileInputStream(URLs[i])));
-
-                    StringBuilder sb = new StringBuilder();
-                    String line;
-
-                    while ((line = docAux.readLine()) != null){
-                        sb.append(line);
-                    }
-
-                    docAux.close();
-
-                    String docString = sb.toString();
-                    Document docAuxJSON = Document.parse(docString);
-
-                    collJSON.insertOne(docAuxJSON);
-                }
                 List<Document> foundDocument = collJSON.find().into(new ArrayList<Document>());
                 parseoJSONDB(foundDocument);
             }
@@ -129,7 +98,6 @@ public class Sint153P2 extends HttpServlet {
             mapFase2.clear();            mapFase2Consulta1.clear();            mapFase2Consulta1ID.clear();
             mapFase3.clear();            mapFase3Consulta1Aux.clear();
             mapFase4.clear();
-
 
 
             salida.println("<h1>SERVICIO DE CONSULTA DE INFORMACIÓN MUSICAL</h1>");

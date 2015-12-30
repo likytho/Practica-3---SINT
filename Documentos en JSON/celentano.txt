@@ -1,0 +1,31 @@
+{
+  "Interprete": {
+    "Nombre": {
+      "NombreC": "Adriano Celentano",
+      "Id": "sdfryghuao"
+    },
+    "Nacionalidad": "italiano",
+    "Album": {
+      "-tipo": "nuevo",
+      "NombreA": "presto",
+      "Año": "2006",
+      "Cancion": [
+        {
+          "NombreT": "presto",
+          "#text": "
+    Tema principal del disco
+    ",
+          "Duracion": "04:10"
+        },
+        {
+          "-estilo": "balada",
+          "NombreT": "per tuti",
+          "#text": "
+    sabore
+    ",
+          "Duracion": "4:05"
+        }
+      ]
+    }
+  }
+}

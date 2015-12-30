@@ -1,0 +1,237 @@
+{
+  "Interprete": {
+    "Nombre": {
+      "NombreC": "Bruce Springsteen",
+      "Id": "sdfryghuie"
+    },
+    "Nacionalidad": "americano",
+    "Album": [
+      {
+        "-tipo": "nuevo",
+        "NombreA": "Born to run",
+        "Año": "2000",
+        "Cancion": [
+          {
+            "-estilo": "pop",
+            "NombreT": "Thunder Road",
+            "#text": "
+    wind blow back
+    ",
+            "Duracion": "04:45"
+          },
+          {
+            "-estilo": "balada",
+            "NombreT": "Night",
+            "#text": "
+    Good
+    ",
+            "Duracion": "04:15",
+            "Version": {
+              "Nombre": {
+                "NombreC": "Joaquín Sabina",
+                "Id": "sdfryghuie"
+              },
+              "IML": "sabina.xml"
+            }
+          },
+          {
+            "-estilo": "rock",
+            "#text": "
+    we all
+    ",
+            "NombreT": "Born to run",
+            "Duracion": "07:11"
+          },
+          {
+            "-estilo": "rock",
+            "NombreT": "She is the one",
+            "Duracion": "04:37",
+            "#text": "
+    the only one
+  "
+          }
+        ]
+      },
+      {
+        "-tipo": "nuevo",
+        "-temas": "5",
+        "NombreA": "The river",
+        "Año": "2001",
+        "Cancion": [
+          {
+            "-estilo": "balada",
+            "NombreT": "Jackson Cage",
+            "#text": "
+    This is
+    ",
+            "Duracion": "05:02"
+          },
+          {
+            "-estilo": "rock",
+            "NombreT": "Hungry Heart",
+            "#text": "
+    And thirsty
+    ",
+            "Duracion": "04:37"
+          },
+          {
+            "-estilo": "balada",
+            "#text": "
+    main song
+    ",
+            "NombreT": "The river",
+            "Duracion": "03:56"
+          },
+          {
+            "-estilo": "country",
+            "NombreT": "Point Blank",
+            "Duracion": "04:57",
+            "#text": "
+    good point
+  "
+          },
+          {
+            "-estilo": "pop",
+            "NombreT": "Out in the street",
+            "Duracion": "03:55",
+            "#text": "
+    You are
+   "
+          }
+        ]
+      },
+      {
+        "-tipo": "recopilatorio",
+        "NombreA": "Greatest Hits",
+        "Año": "2002",
+        "Cancion": [
+          {
+            "-estilo": "balada",
+            "NombreT": "Badlands",
+            "#text": "
+    teh best
+    ",
+            "Duracion": "04:07"
+          },
+          {
+            "-estilo": "rock",
+            "NombreT": "My Hometown",
+            "#text": "
+    This is
+    ",
+            "Duracion": "03:40"
+          },
+          {
+            "-estilo": "balada",
+            "#text": "
+    These are
+    ",
+            "NombreT": "Better Days",
+            "Duracion": "04:27"
+          },
+          {
+            "-estilo": "pop",
+            "NombreT": "Born in the USA",
+            "Duracion": "05:35",
+            "#text": "
+    I was
+  "
+          }
+        ]
+      },
+      {
+        "-tipo": "mixto",
+        "-temas": "4",
+        "NombreA": "Wrecking Ball",
+        "Año": "2003",
+        "Cancion": [
+          {
+            "-estilo": "balada",
+            "NombreT": "Wrecking Ball",
+            "#text": "
+    ruinas
+    ",
+            "Duracion": "04:56"
+          },
+          {
+            "-estilo": "rock",
+            "NombreT": "We are alive",
+            "#text": "
+    always
+    ",
+            "Duracion": "03:51"
+          },
+          {
+            "-estilo": "pop",
+            "#text": "
+    this is the
+    ",
+            "NombreT": "American Land",
+            "Duracion": "04:30"
+          },
+          {
+            "-estilo": "rock",
+            "NombreT": "Easy money",
+            "Duracion": "03:44",
+            "#text": "
+    we got
+  "
+          }
+        ]
+      },
+      {
+        "-tipo": "nuevo",
+        "NombreA": "Nebraska",
+        "Año": "2004",
+        "Cancion": [
+          {
+            "-estilo": "balada",
+            "NombreT": "Nebraska",
+            "#text": "
+    cold
+    ",
+            "Duracion": "06:20",
+            "Version": {
+              "Nombre": {
+                "NombreG": "Siniestro Total",
+                "Id": "sdfryghuii"
+              },
+              "IML": "siniestro.xml"
+            }
+          },
+          {
+            "-estilo": "rock",
+            "NombreT": "Atlantic City",
+            "#text": "
+    money
+    ",
+            "Duracion": "05:05"
+          },
+          {
+            "-estilo": "balada",
+            "#text": "
+    military
+    ",
+            "NombreT": "State Trooper",
+            "Duracion": "06:54"
+          },
+          {
+            "-estilo": "pop",
+            "NombreT": "Reason to Believe",
+            "Duracion": "05:04",
+            "#text": "
+    in all
+    ",
+            "Version": {
+              "Nombre": {
+                "NombreC": "Joe Cocker",
+                "Id": "sdfryghuiu"
+              },
+              "IML": "cocker.xml"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,237 @@
+{
+  "Interprete": {
+    "Nombre": {
+      "NombreC": "Mina",
+      "Id": "sdfryghuio"
+    },
+    "Nacionalidad": "italiano",
+    "Album": [
+      {
+        "-tipo": "mixto",
+        "NombreA": "Plurale",
+        "Año": "2002",
+        "Cancion": [
+          {
+            "-estilo": "pop",
+            "NombreT": "Il testamento del capitano",
+            "#text": "
+    se murió
+    ",
+            "Duracion": "04:45"
+          },
+          {
+            "-estilo": "balada",
+            "NombreT": "El porompompero",
+            "#text": "
+    Ole!
+    ",
+            "Duracion": "04:15",
+            "Version": {
+              "Nombre": {
+                "NombreC": "Bruce Springsteen",
+                "Id": "sdfryghuie"
+              },
+              "IML": "springsteen.xml"
+            }
+          },
+          {
+            "-estilo": "rock",
+            "#text": "
+    Y Greens
+    ",
+            "NombreT": "Scettico Blues",
+            "Duracion": "07:11"
+          },
+          {
+            "-estilo": "rock",
+            "NombreT": "Mood Indigo",
+            "Duracion": "04:37",
+            "#text": "
+    Bad mood
+  "
+          }
+        ]
+      },
+      {
+        "-tipo": "nuevo",
+        "-temas": "5",
+        "NombreA": "Amanti di valore",
+        "Año": "2001",
+        "Cancion": [
+          {
+            "-estilo": "balada",
+            "NombreT": "Amanti di valore",
+            "#text": "
+    di bolsa
+    ",
+            "Duracion": "05:02"
+          },
+          {
+            "-estilo": "rock",
+            "NombreT": "La vita goccia a goccia",
+            "#text": "
+    la vita bella
+    ",
+            "Duracion": "04:37"
+          },
+          {
+            "-estilo": "balada",
+            "#text": "
+    rayos uva
+    ",
+            "NombreT": "Un po de uva",
+            "Duracion": "03:56"
+          },
+          {
+            "-estilo": "balada",
+            "NombreT": "I sogni di un semplice",
+            "Duracion": "04:57",
+            "#text": "
+    muy simple
+  "
+          },
+          {
+            "-estilo": "pop",
+            "NombreT": "Ieri, ieri",
+            "Duracion": "03:55",
+            "#text": "
+    leri leri
+   "
+          }
+        ]
+      },
+      {
+        "-tipo": "nuevo",
+        "NombreA": "Dalla Bussola",
+        "Año": "2004",
+        "Cancion": [
+          {
+            "-estilo": "balada",
+            "NombreT": "The Groove Merchant",
+            "#text": "
+    Groovenut
+    ",
+            "Duracion": "04:07"
+          },
+          {
+            "-estilo": "rock",
+            "NombreT": "E penso a te",
+            "#text": "
+    te penso
+    ",
+            "Duracion": "03:40"
+          },
+          {
+            "-estilo": "balada",
+            "#text": "
+    fume de carozo
+    ",
+            "NombreT": "Fiume azzurro",
+            "Duracion": "04:27"
+          },
+          {
+            "-estilo": "pop",
+            "NombreT": "Io vivrò",
+            "Duracion": "05:35",
+            "#text": "
+    tamé
+  "
+          }
+        ]
+      },
+      {
+        "-tipo": "nuevo",
+        "-temas": "4",
+        "NombreA": "Catene",
+        "Año": "2003",
+        "Cancion": [
+          {
+            "-estilo": "balada",
+            "NombreT": "La verità",
+            "#text": "
+    e vera
+    ",
+            "Duracion": "04:56"
+          },
+          {
+            "-estilo": "rock",
+            "NombreT": "E la chiamano estate",
+            "#text": "
+    estate quieto
+    ",
+            "Duracion": "03:51"
+          },
+          {
+            "-estilo": "pop",
+            "#text": "
+    también
+    ",
+            "NombreT": "Eso es el amor",
+            "Duracion": "04:30"
+          },
+          {
+            "-estilo": "rock",
+            "NombreT": "Buona sera",
+            "Duracion": "03:44",
+            "#text": "
+    bon giorno
+  "
+          }
+        ]
+      },
+      {
+        "-tipo": "recopilatorio",
+        "NombreA": "Singolare",
+        "Año": "2000",
+        "Cancion": [
+          {
+            "-estilo": "balada",
+            "NombreT": "Sognando",
+            "#text": "
+    voy
+    ",
+            "Duracion": "06:20",
+            "Version": {
+              "Nombre": {
+                "NombreG": "Siniestro Total",
+                "Id": "sdfryghuii"
+              },
+              "IML": "siniestro.xml"
+            }
+          },
+          {
+            "-estilo": "rock",
+            "NombreT": "Colpa mia",
+            "#text": "
+    o no
+    ",
+            "Duracion": "05:05"
+          },
+          {
+            "-estilo": "balada",
+            "#text": "
+    estoy
+    ",
+            "NombreT": "Triste",
+            "Duracion": "06:54"
+          },
+          {
+            "-estilo": "pop",
+            "NombreT": "Ancora dolcemente",
+            "Duracion": "05:04",
+            "#text": "
+    muy dulce
+        ",
+            "Version": {
+              "Nombre": {
+                "NombreG": "Adriano Celentano",
+                "Id": "sdfryghuao"
+              },
+              "IML": "celentano.xml"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,230 @@
+{
+  "Interprete": {
+    "Nombre": {
+      "NombreG": "Siniestro Total",
+      "Id": "sdfryghuii"
+    },
+    "Nacionalidad": "español",
+    "Album": [
+      {
+        "-tipo": "mixto",
+        "NombreA": "¿Cuándo se come aquí?",
+        "Año": "2000",
+        "Cancion": [
+          {
+            "-estilo": "pop",
+            "NombreT": "Ponte en mi lugar",
+            "#text": "
+    como yo en el tuyo
+    ",
+            "Duracion": "04:45"
+          },
+          {
+            "-estilo": "balada",
+            "NombreT": "El cobrador loco",
+            "#text": "
+    como todos
+    ",
+            "Duracion": "04:15",
+            "Version": {
+              "Nombre": {
+                "NombreC": "Luis Eduardo Aute",
+                "Id": "sdfryghuau"
+              },
+              "IML": "aute.xml"
+            }
+          },
+          {
+            "-estilo": "rock",
+            "#text": "
+    Exagerado
+    ",
+            "NombreT": "Nocilla, ¡qué merendilla!",
+            "Duracion": "07:11"
+          },
+          {
+            "-estilo": "rock",
+            "NombreT": "Ayatollah!",
+            "Duracion": "04:37",
+            "#text": "
+    sin rimas
+  "
+          }
+        ]
+      },
+      {
+        "-tipo": "nuevo",
+        "-temas": "5",
+        "NombreA": "Menos mal que nos queda Portugal",
+        "Año": "2001",
+        "Cancion": [
+          {
+            "-estilo": "balada",
+            "NombreT": "Que corra la nicotina",
+            "#text": "
+    pasado de moda
+    ",
+            "Duracion": "05:02"
+          },
+          {
+            "-estilo": "rock",
+            "NombreT": "Señor, ilumina mi corazón",
+            "#text": "
+    con energías renovables
+    ",
+            "Duracion": "04:37"
+          },
+          {
+            "-estilo": "balada",
+            "#text": "
+    siempre
+    ",
+            "NombreT": "Oh, qué raro soy",
+            "Duracion": "03:56"
+          },
+          {
+            "-estilo": "balada",
+            "NombreT": "Si yo canto",
+            "Duracion": "04:57",
+            "#text": "
+    es por ti
+  "
+          },
+          {
+            "-estilo": "pop",
+            "NombreT": "La matanza de taxis",
+            "Duracion": "03:55",
+            "#text": "
+    por caros
+   "
+          }
+        ]
+      },
+      {
+        "-tipo": "nuevo",
+        "NombreA": "Bailaré sobre tu tumba",
+        "Año": "2002",
+        "Cancion": [
+          {
+            "-estilo": "balada",
+            "NombreT": "Bailaré sobre tu tumba",
+            "#text": "
+    descalzo
+    ",
+            "Duracion": "04:07"
+          },
+          {
+            "-estilo": "rock",
+            "NombreT": "Al final",
+            "#text": "
+    todo se acaba
+    ",
+            "Duracion": "03:40"
+          },
+          {
+            "-estilo": "balada",
+            "#text": "
+    en la playa
+    ",
+            "NombreT": "Rock en Samil",
+            "Duracion": "04:27"
+          },
+          {
+            "-estilo": "pop",
+            "NombreT": "Viene el verano",
+            "Duracion": "05:35",
+            "#text": "
+    y el calor
+  "
+          }
+        ]
+      },
+      {
+        "-tipo": "nuevo",
+        "-temas": "4",
+        "NombreA": "Ante todo mucha calma",
+        "Año": "2003",
+        "Cancion": [
+          {
+            "-estilo": "balada",
+            "NombreT": "Todo por la napia",
+            "#text": "
+    grande
+    ",
+            "Duracion": "04:56"
+          },
+          {
+            "-estilo": "rock",
+            "NombreT": "De hoy no pasa",
+            "#text": "
+    nada
+    ",
+            "Duracion": "03:51"
+          },
+          {
+            "-estilo": "pop",
+            "#text": "
+    adonde?
+    ",
+            "NombreT": "Vamos muy bien",
+            "Duracion": "04:30"
+          },
+          {
+            "-estilo": "rock",
+            "NombreT": "Somos Siniestro Total",
+            "Duracion": "03:44",
+            "#text": "
+    me lo creo
+  "
+          }
+        ]
+      },
+      {
+        "-tipo": "recopilatorio",
+        "NombreA": "De hoy no pasa",
+        "Año": "2004",
+        "Cancion": [
+          {
+            "-estilo": "balada",
+            "NombreT": "Quiero bailar rock and roll",
+            "#text": "
+    toda la noche
+    ",
+            "Duracion": "06:20",
+            "Version": {
+              "Nombre": {
+                "NombreG": "Mina",
+                "Id": "sdfryghuio"
+              },
+              "IML": "mina.xml"
+            }
+          },
+          {
+            "-estilo": "rock",
+            "NombreT": "Diez escala drinker",
+            "#text": "
+    máxima
+    ",
+            "Duracion": "05:05"
+          },
+          {
+            "-estilo": "balada",
+            "#text": "
+    y apúntelo
+    ",
+            "NombreT": "Diga qué le debo",
+            "Duracion": "06:54"
+          },
+          {
+            "-estilo": "pop",
+            "NombreT": "Yo ya fui a Cangas del Morrazo",
+            "Duracion": "05:04",
+            "#text": "
+    para nada
+  "
+          }
+        ]
+      }
+    ]
+  }
+}

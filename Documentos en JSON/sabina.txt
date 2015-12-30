@@ -1,0 +1,230 @@
+{
+  "Interprete": {
+    "Nombre": {
+      "NombreC": "Joaquín Sabina",
+      "Id": "sdfryghuia"
+    },
+    "Nacionalidad": "español",
+    "Album": [
+      {
+        "-tipo": "nuevo",
+        "NombreA": "19 días y 500 noches",
+        "Año": "2002",
+        "Cancion": [
+          {
+            "-estilo": "pop",
+            "NombreT": "19 días y 500 noches",
+            "#text": "
+    Tema principal del disco
+    ",
+            "Duracion": "04:45"
+          },
+          {
+            "-estilo": "balada",
+            "NombreT": "Una Canción Para La Magdalena",
+            "#text": "
+    Sobre la Magdalena?
+    ",
+            "Duracion": "04:15",
+            "Version": {
+              "Nombre": {
+                "NombreC": "Bruce Springsteen",
+                "Id": "sdfryghuie"
+              },
+              "IML": "springsteen.xml"
+            }
+          },
+          {
+            "-estilo": "rock",
+            "#text": "
+    Y alguno más
+    ",
+            "NombreT": "A Mis Cuarenta y Diez",
+            "Duracion": "07:11"
+          },
+          {
+            "-estilo": "rock",
+            "NombreT": "Cerrado Por Derribo",
+            "Duracion": "04:37",
+            "#text": "
+    Para siempre
+  "
+          }
+        ]
+      },
+      {
+        "-tipo": "nuevo",
+        "-temas": "5",
+        "NombreA": "Física y Química",
+        "Año": "2001",
+        "Cancion": [
+          {
+            "-estilo": "balada",
+            "NombreT": "Y nos dieron las diez",
+            "#text": "
+    Y las once
+    ",
+            "Duracion": "05:02"
+          },
+          {
+            "-estilo": "rock",
+            "NombreT": "La del pirata cojo",
+            "#text": "
+    Con pata de palo
+    ",
+            "Duracion": "04:37"
+          },
+          {
+            "-estilo": "balada",
+            "#text": "
+    Esta es
+    ",
+            "NombreT": "La canción de las noches perdidas",
+            "Duracion": "03:56"
+          },
+          {
+            "-estilo": "balada",
+            "NombreT": "Peor para el sol",
+            "Duracion": "04:57",
+            "#text": "
+    Que se mete en a cama a dormir
+  "
+          },
+          {
+            "-estilo": "pop",
+            "NombreT": "Pastillas para no soñar",
+            "Duracion": "03:55",
+            "#text": "
+    No hay
+   "
+          }
+        ]
+      },
+      {
+        "-tipo": "recopilatorio",
+        "NombreA": "Todos hablan de ti",
+        "Año": "2004",
+        "Cancion": [
+          {
+            "-estilo": "balada",
+            "NombreT": "Pongamos que hablo de Madrid",
+            "#text": "
+    Al cielo
+    ",
+            "Duracion": "04:07"
+          },
+          {
+            "-estilo": "rock",
+            "NombreT": "Eh, Sabina",
+            "#text": "
+    Tú sí que sabes
+    ",
+            "Duracion": "03:40"
+          },
+          {
+            "-estilo": "balada",
+            "#text": "
+    Quiero mudarme hace años
+    ",
+            "NombreT": "Calle Melancolía",
+            "Duracion": "04:27"
+          },
+          {
+            "-estilo": "pop",
+            "NombreT": "Juana la Loca",
+            "Duracion": "05:35",
+            "#text": "
+    Y Felipe el Hermoso
+  "
+          }
+        ]
+      },
+      {
+        "-tipo": "mixto",
+        "-temas": "4",
+        "NombreA": "Diario de un peatón",
+        "Año": "2003",
+        "Cancion": [
+          {
+            "-estilo": "balada",
+            "NombreT": "La canción más hermosa del mundo",
+            "#text": "
+    Con Pablo Milanés
+    ",
+            "Duracion": "04:56"
+          },
+          {
+            "-estilo": "rock",
+            "NombreT": "Doble vida",
+            "#text": "
+    Y triple a veces
+    ",
+            "Duracion": "03:51"
+          },
+          {
+            "-estilo": "pop",
+            "#text": "
+    Nosotros también
+    ",
+            "NombreT": "Semos diferentes",
+            "Duracion": "04:30"
+          },
+          {
+            "-estilo": "rock",
+            "NombreT": "Cuando me hablan del destino",
+            "Duracion": "03:44",
+            "#text": "
+    Me pongo furioso
+  "
+          }
+        ]
+      },
+      {
+        "-tipo": "nuevo",
+        "NombreA": "Nos sobran los motivos",
+        "Año": "2000",
+        "Cancion": [
+          {
+            "-estilo": "balada",
+            "NombreT": "Que se llama Soledad",
+            "#text": "
+    Y seguirá llamándose
+    ",
+            "Duracion": "06:20",
+            "Version": {
+              "Nombre": {
+                "NombreG": "Siniestro Total",
+                "Id": "sdfryghuii"
+              },
+              "IML": "siniestro.xml"
+            }
+          },
+          {
+            "-estilo": "rock",
+            "NombreT": "Contigo",
+            "#text": "
+    Y sin ti
+    ",
+            "Duracion": "05:05"
+          },
+          {
+            "-estilo": "balada",
+            "#text": "
+    Así estoy yo sin ti
+    ",
+            "NombreT": "¿Quién me ha robado el mes de abril?",
+            "Duracion": "06:54"
+          },
+          {
+            "-estilo": "pop",
+            "NombreT": "Conductores suicidas",
+            "Duracion": "05:04",
+            "#text": "
+    Todos somos un poco así
+  "
+          }
+        ]
+      }
+    ]
+  }
+}

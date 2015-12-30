@@ -1,0 +1,31 @@
+{
+  "Interprete": {
+    "Nombre": {
+      "NombreC": "Luis Eduardo Aute",
+      "Id": "sdfryghuau"
+    },
+    "Album": {
+      "-tipo": "nuevo",
+      "NombreA": "al alba",
+      "Año": "2005",
+      "Cancion": [
+        {
+          "-estilo": "pop",
+          "NombreT": "al alba",
+          "#text": "
+    Tema principal del disco
+    ",
+          "Duracion": "04:50"
+        },
+        {
+          "-estilo": "balada",
+          "NombreT": "para siempre",
+          "#text": "
+   y más
+    ",
+          "Duracion": "03:05"
+        }
+      ]
+    }
+  }
+}

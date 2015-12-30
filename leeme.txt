@@ -1,0 +1,15 @@
+Entrega Práctica 3
+	Pedro Tubío Figueira
+	Sint153
+
+Para empezar, deberá arrancarse la base de datos. Haremos esto abriendo un terminal en el directorio "~/mongodb-linux/bin/" y, una vez en él,
+teclearemos la siguiente línea:
+
+	./mongod --dbpath ~/datosMongoDB/ --port 27017 --storageEngine=mmapv1
+
+Los documentos, formateados con el estándar JSON, se encuentran ya almacenados en la base de datos. El archivo cocker.xml, mal formado, se ha incluido también, aunque con el error que ha sido producido al intentar parsearlo a JSON (se ha utilizado un parser online). El servlet lo descarta.
+
+Una vez arrancada la base de datos, procedemos a ejecutar el Tomcat y a utilizar el servicio desde http://localhost:8153/sint153/IM3, como especifica el enunciado de la práctica.
+
+
+	
